@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shuai Yu | Welcome</title>
+    <link>https://wenyudu.github.io/authors/shuai-yu/</link>
+      <atom:link href="https://wenyudu.github.io/authors/shuai-yu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Shuai Yu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Wenyu Du</copyright><lastBuildDate>Tue, 10 Apr 2018 20:06:13 +0800</lastBuildDate>
+    <image>
+      <url>https://wenyudu.github.io/images/icon_hu05798da5833095988f190093553a38f3_1610_512x512_fill_lanczos_center_2.png</url>
+      <title>Shuai Yu</title>
+      <link>https://wenyudu.github.io/authors/shuai-yu/</link>
+    </image>
+    
+    <item>
+      <title>GPSP: Graph Partition and Space Projection based Approach for Heterogeneous Network Embedding</title>
+      <link>https://wenyudu.github.io/publication/www18-gpsp/</link>
+      <pubDate>Tue, 10 Apr 2018 20:06:13 +0800</pubDate>
+      <guid>https://wenyudu.github.io/publication/www18-gpsp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
