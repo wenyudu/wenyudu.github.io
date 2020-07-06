@@ -13,6 +13,14 @@
     </image>
     
     <item>
+      <title>A Hessian-Free Gradient Flow (HFGF) Method for the Optimisation of Deep Learning Neural Networks</title>
+      <link>https://wenyudu.github.io/publication/cce20-hfgf/</link>
+      <pubDate>Fri, 10 Apr 2020 20:06:41 +0800</pubDate>
+      <guid>https://wenyudu.github.io/publication/cce20-hfgf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Exploiting Syntactic Structure for Better Language Modeling: A Syntactic Distance Approach</title>
       <link>https://wenyudu.github.io/publication/acl20-sdlm/</link>
       <pubDate>Fri, 10 Apr 2020 20:06:41 +0800</pubDate>
