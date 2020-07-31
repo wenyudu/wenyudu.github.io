@@ -5,7 +5,7 @@
     <link>https://wenyudu.github.io/tags/optimization/</link>
       <atom:link href="https://wenyudu.github.io/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
     <description>Optimization</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Wenyu Du</copyright><lastBuildDate>Fri, 10 Apr 2020 20:06:41 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Wenyu Du</copyright><lastBuildDate>Fri, 10 Jul 2020 20:06:41 +0800</lastBuildDate>
     <image>
       <url>https://wenyudu.github.io/images/icon_hu05798da5833095988f190093553a38f3_1610_512x512_fill_lanczos_center_2.png</url>
       <title>Optimization</title>
@@ -15,7 +15,7 @@
     <item>
       <title>A Hessian-Free Gradient Flow (HFGF) Method for the Optimisation of Deep Learning Neural Networks</title>
       <link>https://wenyudu.github.io/publication/cce20-hfgf/</link>
-      <pubDate>Fri, 10 Apr 2020 20:06:41 +0800</pubDate>
+      <pubDate>Fri, 10 Jul 2020 20:06:41 +0800</pubDate>
       <guid>https://wenyudu.github.io/publication/cce20-hfgf/</guid>
       <description></description>
     </item>
