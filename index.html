@@ -10,19 +10,19 @@
   <!-- Google Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
   
-  <!-- Bootstrap 4 CDN (提供基础布局) -->
+  <!-- Bootstrap 4 CDN (Provides basic layout) -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
   
-  <!-- Font Awesome (提供图标) -->
+  <!-- Font Awesome (Provides icons) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   
-  <!-- Academicons (提供学术图标，如 Google Scholar) -->
+  <!-- Academicons (Provides academic icons like Google Scholar) -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
   <style>
-    /* --- 核心样式 (替代原本的 academic.css) --- */
+    /* --- Core Styles (Replaces original academic.css) --- */
     :root {
-      --primary-color: #3f51b5; /* 你原来的主题色 */
+      --primary-color: #3f51b5; /* Your original theme color */
       --font-heading: 'Montserrat', sans-serif;
       --font-body: 'Roboto', sans-serif;
     }
@@ -31,7 +31,7 @@
       font-family: var(--font-body);
       color: rgb(0, 0, 0);
       background-color: #fff;
-      padding-top: 70px; /* 导航栏避让高度 */
+      padding-top: 70px; /* Navbar offset height */
     }
 
     h1, h2, h3, h4, h5, h6 {
@@ -50,7 +50,7 @@
       text-decoration: none;
     }
 
-    /* 导航栏 */
+    /* Navbar */
     .navbar {
       background-color: #fff;
       box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
@@ -69,7 +69,7 @@
         color: var(--primary-color);
     }
 
-    /* 章节通用样式 */
+    /* General Section Styles */
     .home-section {
       padding: 40px 0 40px 0;
     }
@@ -79,7 +79,7 @@
       font-size: 1.75rem;
     }
 
-    /* 个人资料 / Biography */
+    /* Profile / Biography */
     #profile {
       text-align: center;
       padding: 30px;
@@ -130,7 +130,7 @@
         transform: scale(1.1);
     }
 
-    /* 教育与经历列表 */
+    /* Education & Experience List */
     .ul-edu {
       list-style: none;
       padding-left: 0;
@@ -163,7 +163,7 @@
         font-style: italic;
     }
 
-    /* 论文列表 */
+    /* Publication List */
     .pub-list-item {
       background: #fff;
       padding: 20px;
@@ -199,7 +199,7 @@
         margin-left: 5px;
     }
 
-    /* 页脚 */
+    /* Footer */
     .site-footer {
         margin-top: 40px;
         padding: 20px 0;
@@ -213,7 +213,7 @@
 
 <body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main">
 
-  <!-- 导航栏 -->
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar-main">
     <div class="container">
       <a class="navbar-brand d-lg-none" href="#">Wenyu Du</a>
@@ -233,7 +233,7 @@
             <a class="nav-link" href="#contact"><span>Contact</span></a>
           </li>
           <li class="nav-item">
-            <!-- 链接到你原来的 PDF CV -->
+            <!-- Link to your original PDF CV -->
             <a class="nav-link" href="/cv.pdf" target="_blank"><span>CV</span></a>
           </li>
         </ul>
@@ -241,15 +241,15 @@
     </div>
   </nav>
 
-  <!-- 个人简介 Section -->
+  <!-- About Section -->
   <section id="about" class="home-section wg-about">
     <div class="container">
       <div class="row">
         <div class="col-12 col-lg-4">
           <div id="profile">
             <!-- 
-               注意：这里使用相对路径引用了你仓库里原有的图片。
-               只要你没删仓库里的 /authors/admin/ 文件夹，头像就能正常显示。
+               Note: Using relative path to reference original image in repository.
+               Ensure /authors/admin/ folder exists in your repo.
             -->
             <img class="avatar avatar-circle" src="/authors/admin/avatar_hu468823e4986973634b68ff7b699bd8a1_277771_270x270_fill_q90_lanczos_center.jpg" alt="Wenyu Du">
             
@@ -358,7 +358,7 @@
     </div>
   </section>
 
-  <!-- 论文列表 Section -->
+  <!-- Publications Section -->
   <section id="publications" class="home-section wg-pages">
     <div class="container">
       <div class="row">
@@ -372,13 +372,19 @@
           <div class="pub-list-item">
             <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
             <span class="article-metadata li-cite-author">
-              <span>Stephen Chung, <strong>Wenyu Du*</strong>. </span>
+              <span>Stephen Chung, <strong>Wenyu Du</strong>. </span>
             </span>
             <br>
             <a href="#"><strong>The Station: An Open-World Environment for AI-Driven Discovery.</strong></a>
             <span class="new-badge">New</span>
             <br>
             <em>Preprint, 2025.</em>
+            <div class="mt-2">
+              <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2511.06309" target="_blank">Paper</a>
+              <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/dualverse-ai/station" target="_blank">Code</a>
+              <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://dualverse-ai.github.io/station_data/" target="_blank">Demo</a>
+              <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://stephen-c.com/projects/station/" target="_blank">Blog</a>
+            </div>
           </div>
 
           <!-- New Paper 2025: Thinker -->
@@ -389,9 +395,12 @@
             </span>
             <br>
             <a href="#"><strong>Thinker: Learning to Think Fast and Slow.</strong></a>
-            <span class="new-badge">NeurIPS 2025</span>
             <br>
             <em>The Thirty-Nineth Annual Conference on Neural Information Processing Systems (NeurIPS, Poster), 2025.</em>
+            <div class="mt-2">
+              <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2505.21097" target="_blank">Paper</a>
+              <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/stephen-chung-mh/thinker-task" target="_blank">Code</a>
+            </div>
           </div>
 
           <!-- Existing Paper: Stacking -->
@@ -430,7 +439,7 @@
     </div>
   </section>
 
-  <!-- 联系方式 Section -->
+  <!-- Contact Section -->
   <section id="contact" class="home-section wg-contact">
     <div class="container">
       <div class="row contact-widget">
@@ -455,7 +464,7 @@
     </div>
   </section>
 
-  <!-- 页脚 -->
+  <!-- Footer -->
   <div class="container">
     <footer class="site-footer">
       <p class="powered-by">
@@ -476,7 +485,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
   
   <script>
-      // 简单的平滑滚动脚本
+      // Simple smooth scrolling script
       document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
